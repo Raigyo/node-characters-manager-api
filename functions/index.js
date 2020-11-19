@@ -17,4 +17,18 @@ app.get('/hello-world', (req, res) => {
   return res.status(200).send('Hello World!');
 });
 
+// POST: create
+app.post('/api/create', (req, res) => {
+  (async () => {
+      try {
+        await db.collection('items').doc('/' + req.body.id + '/')
+            .create({item: req.body.item});
+        return res.status(200).send();
+      } catch (error) {
+        console.log(error);
+        return res.status(500).send(error);
+      }
+    })();
+});
+
 exports.app = functions.https.onRequest(app);

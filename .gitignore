@@ -1,3 +1,8 @@
+# Files
+
+permissions.json
+package-lock.json
+
 # Logs
 logs
 *.log

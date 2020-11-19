@@ -1,4 +1,4 @@
-# Building an API with Firebase
+# Building an API with Firebase (WIP)
 
 ## Local
 
@@ -7,6 +7,10 @@
 `npm run serve`
 
 [Firebase Emulator Suite](http://127.0.0.1:4000/)
+
+**Postman**
+
+GET: *http://127.0.0.1:5001/character-manager-825d7/us-central1/app/hello-world*
 
 
 ## Useful links
