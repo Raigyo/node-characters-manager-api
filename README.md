@@ -1,0 +1,1 @@
+# node-characters-manager-api
