@@ -61,6 +61,4 @@
 
 - [Building an API with Firebase](https://medium.com/@andrew_evans/building-an-api-with-firebase-6ec9623eae3)
 - [how-to-build-a-firebase-api](https://github.com/andrewevans0102/how-to-build-a-firebase-api)
-- []()
-- []()
-- []()
+

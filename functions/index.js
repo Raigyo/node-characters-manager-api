@@ -1,3 +1,5 @@
+// Version with one item
+
 // firebase-functions is an npm module that enables you to create functions
 const functions = require('firebase-functions');
 // firebase-admin is the firebase admin SDK that enables your functions to control
