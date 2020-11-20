@@ -37,7 +37,12 @@ app.post('/api/create', (req, res) => {
   (async () => {
       try {
         await db.collection('items').doc('/' + req.body.id + '/')
-            .create({item: req.body.item});
+            .create({
+              name: req.body.name,
+              shortDescription: req.body.shortDescription,
+              description: req.body.description,
+              image: req.body.image
+            })
         return res.status(200).send();
       } catch (error) {
         console.log(error);
@@ -72,7 +77,10 @@ app.get('/api/read', (req, res) => {
               for (let doc of docs) {
                   const selectedItem = {
                       id: doc.id,
-                      item: doc.data().item
+                      name: doc.data().name,
+                      shortDescription: doc.data().shortDescription,
+                      description: doc.data().description,
+                      image: doc.data().image
                   };
                   response.push(selectedItem);
               }
@@ -92,7 +100,10 @@ app.put('/api/update/:item_id', (req, res) => {
   try {
       const document = db.collection('items').doc(req.params.item_id);
       await document.update({
-          item: req.body.item
+          name: req.body.name,
+          shortDescription: req.body.shortDescription,
+          description: req.body.description,
+          image: req.body.image
       });
       return res.status(200).send();
   } catch (error) {

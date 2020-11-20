@@ -61,6 +61,6 @@
 
 - [Building an API with Firebase](https://medium.com/@andrew_evans/building-an-api-with-firebase-6ec9623eae3)
 - [how-to-build-a-firebase-api](https://github.com/andrewevans0102/how-to-build-a-firebase-api)
-- []()
-- []()
-- []()
+- [Add data to Cloud Firestore](https://firebase.google.com/docs/firestore/manage-data/add-data)
+- [Upload Files on Web](https://firebase.google.com/docs/storage/web/upload-files)
+- [Download Files on Web](https://firebase.google.com/docs/storage/web/download-files)
