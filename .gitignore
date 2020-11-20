@@ -2,7 +2,7 @@
 
 permissions.json
 package-lock.json
-postman/firebase-api.postman_collection.json
+./postman/firebase-api.postman_collection.json
 
 # Logs
 logs

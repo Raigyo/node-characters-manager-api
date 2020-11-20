@@ -9,12 +9,19 @@ const express = require('express');
 const cors = require('cors');
 // The app.use is just enabling CORS for your express server instance.
 const app = express();
+const path = require('path');
+
 app.use(cors({ origin: true }));
 /* For our purposes, the app.get is just making an HTTP GET call and capturing the request in req
 and response in res. When the endpoint is called, it will return a "Hello World!" string
 with a HTTP status code of 200. */
-app.get('/hello-world', (req, res) => {
-  return res.status(200).send('Hello World!');
+
+// app.get('/hello-world', (req, res) => {
+//   return res.status(200).send('Hello World!');
+// });
+
+app.get('/', (req, res) => {
+  return res.status(200).sendFile(path.join(__dirname,'./index.html'));
 });
 
 var serviceAccount = require("./permissions.json");
