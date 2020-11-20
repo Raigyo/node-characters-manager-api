@@ -25,14 +25,14 @@
 							"raw": "{\n\t\"id\": \"2\",\n\t\"item\": \"second item\"\n}"
 						},
 						"url": {
-							"raw": "http://localhost:5001/{{project-id}}/us-central1/app/api/create",
+							"raw": "http://localhost:5000/{{project-id}}/us-central1/app/api/create",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5001",
+							"port": "5000",
 							"path": [
-								"character-manager-825d7",
+								"{{project-id}}",
 								"us-central1",
 								"app",
 								"api",
@@ -52,14 +52,14 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://localhost:5001/{{project-id}}/us-central1/app/api/read/2",
+							"raw": "http://localhost:5000/{{project-id}}/us-central1/app/api/read/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5001",
+							"port": "5000",
 							"path": [
-								"character-manager-825d7",
+								"{{project-id}}",
 								"us-central1",
 								"app",
 								"api",
@@ -80,14 +80,14 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://localhost:5001/{{project-id}}/us-central1/app/api/read",
+							"raw": "http://localhost:5000/{{project-id}}/us-central1/app/api/read",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5001",
+							"port": "5000",
 							"path": [
-								"character-manager-825d7",
+								"{{project-id}}",
 								"us-central1",
 								"app",
 								"api",
@@ -114,14 +114,14 @@
 							"raw": "{\n\t\"item\": \"this item has been updated\"\n}"
 						},
 						"url": {
-							"raw": "http://localhost:5001/{{project-id}}/us-central1/app/api/update/1",
+							"raw": "http://localhost:5000/{{project-id}}/us-central1/app/api/update/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5001",
+							"port": "5000",
 							"path": [
-								"character-manager-825d7",
+								"{{project-id}}",
 								"us-central1",
 								"app",
 								"api",
@@ -142,14 +142,14 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://localhost:5001/{{project-id}}/us-central1/app/api/delete/ySFqcCRWg7c6NgtHPALp",
+							"raw": "http://localhost:5000/{{project-id}}/us-central1/app/api/delete/ySFqcCRWg7c6NgtHPALp",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5001",
+							"port": "5000",
 							"path": [
-								"character-manager-825d7",
+								"{{project-id}}",
 								"us-central1",
 								"app",
 								"api",
